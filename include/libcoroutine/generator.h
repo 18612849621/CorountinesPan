@@ -21,9 +21,7 @@ namespace libcoroutine {
             }
 
             std::suspend_always await_transform(int value) {
-                std::cout << "await_transform begin" << std::endl;
                 value_ = value;
-                std::cout << "await_transform end" << std::endl;
                 return {};
             }
 

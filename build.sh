@@ -7,6 +7,6 @@ if [ ! -d "$path/$folder" ]; then
     is_first_complie=true
 fi
 cd $folder
-cmake ..
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES ..
 make
 

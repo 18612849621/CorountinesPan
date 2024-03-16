@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/panyuchen/Desktop/CorountinesPan/build",
+  "command": "/usr/bin/clang++  -I/Users/panyuchen/Desktop/CorountinesPan/include/libcoroutine -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/coroutine.dir/src/debug.cpp.o -c /Users/panyuchen/Desktop/CorountinesPan/src/debug.cpp",
+  "file": "/Users/panyuchen/Desktop/CorountinesPan/src/debug.cpp",
+  "output": "CMakeFiles/coroutine.dir/src/debug.cpp.o"
+},
+{
+  "directory": "/Users/panyuchen/Desktop/CorountinesPan/build/example",
+  "command": "/usr/bin/clang++  -I/Users/panyuchen/Desktop/CorountinesPan/example/../include/libcoroutine -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/generator.dir/generator.cpp.o -c /Users/panyuchen/Desktop/CorountinesPan/example/generator.cpp",
+  "file": "/Users/panyuchen/Desktop/CorountinesPan/example/generator.cpp",
+  "output": "example/CMakeFiles/generator.dir/generator.cpp.o"
+},
+{
+  "directory": "/Users/panyuchen/Desktop/CorountinesPan/build/example",
+  "command": "/usr/bin/clang++  -I/Users/panyuchen/Desktop/CorountinesPan/example/../include/libcoroutine -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/test.dir/test.cpp.o -c /Users/panyuchen/Desktop/CorountinesPan/example/test.cpp",
+  "file": "/Users/panyuchen/Desktop/CorountinesPan/example/test.cpp",
+  "output": "example/CMakeFiles/test.dir/test.cpp.o"
+}
+]

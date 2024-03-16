@@ -3,18 +3,20 @@
 
 using namespace libcoroutine;
 
+#define main_step 15
+#define coroutine_step 10
+
 Generator generator() {
-    int a = 0;
-    std::cout << "await before" << std::endl;
-    co_await a++;
-    std::cout << "await after" << std::endl;
+    int i = 1;
+    while (i < coroutine_step) {
+        co_await i++;
+    }
 }
 
 int main() {
     auto g = generator();
-    // std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    int v = g.next();
-    // g.resume(); 
-    std::cout << "main:" << v << std::endl;
+    for (int i = 0; i < main_step; ++i) {
+        std::cout << "[" << i << "]value:" << g.next() << std::endl;
+    }
     return 0;
 }

@@ -1,0 +1,2 @@
+target="generator"
+./bin/${target}

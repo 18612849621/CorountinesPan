@@ -1,0 +1,7 @@
+/Users/panyuchen/Desktop/CorountinesPan/build/CMakeFiles/coroutine.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/CMakeFiles/edit_cache.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/CMakeFiles/rebuild_cache.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/example/CMakeFiles/generator.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/example/CMakeFiles/test.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/example/CMakeFiles/edit_cache.dir
+/Users/panyuchen/Desktop/CorountinesPan/build/example/CMakeFiles/rebuild_cache.dir
