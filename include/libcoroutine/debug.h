@@ -1,6 +1,7 @@
 #pragma once
-#include "libcoroutine.h"
-#include <iostream>
+
+#include "declare.h"
+
 
 namespace libcoroutine {
 

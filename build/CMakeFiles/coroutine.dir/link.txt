@@ -1,2 +1,0 @@
-/usr/bin/ar qc /Users/panyuchen/Desktop/CorountinesPan/lib/libcoroutine.a CMakeFiles/coroutine.dir/src/debug.cpp.o
-/usr/bin/ranlib /Users/panyuchen/Desktop/CorountinesPan/lib/libcoroutine.a

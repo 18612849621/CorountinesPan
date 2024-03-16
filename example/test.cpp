@@ -1,6 +1,3 @@
-#include <iostream>
-#include <coroutine>
-
 #include "libcoroutine.h"
 
 int main () {
